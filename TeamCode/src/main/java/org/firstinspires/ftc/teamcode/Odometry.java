@@ -1,8 +1,4 @@
-package org.firstinspires.ftc.teamcode.planner;
-
-import com.qualcomm.hardware.bosch.BNO055IMU;
-
-import org.firstinspires.ftc.teamcode.Robot;
+package org.firstinspires.ftc.teamcode;
 
 public class Odometry {
     private Robot robot;

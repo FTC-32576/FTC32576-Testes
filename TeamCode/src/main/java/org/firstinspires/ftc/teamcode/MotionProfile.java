@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.planner;
+package org.firstinspires.ftc.teamcode;
 
 public class MotionProfile {
     private double accel = 0.01;    // incremento por loop

@@ -1,9 +1,7 @@
-package org.firstinspires.ftc.teamcode.planner;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-
-import org.firstinspires.ftc.teamcode.Robot;
 
 import java.util.Arrays;
 import java.util.List;

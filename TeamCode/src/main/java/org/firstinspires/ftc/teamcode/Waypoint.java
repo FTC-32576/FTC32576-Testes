@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.planner;
+package org.firstinspires.ftc.teamcode;
 
 public class Waypoint {
     public double x, y, heading;
