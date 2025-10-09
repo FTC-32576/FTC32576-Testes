@@ -3,14 +3,15 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.util.Range;
 
 
 @TeleOp(name="Andar Teleop")
 public class BasicOpMode_Linear extends LinearOpMode {
 
-    DcMotor leftDrive;
-    DcMotor rightDrive;
+    public DcMotor leftDrive;
+    public DcMotor rightDrive;
 
 
     @Override
@@ -23,10 +24,10 @@ public class BasicOpMode_Linear extends LinearOpMode {
 
         leftDrive.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        leftDrive.setDirection(DcMotor.Direction.REVERSE);
-        rightDrive.setDirection(DcMotor.Direction.FORWARD);
+        leftDrive.setDirection(DcMotor.Direction.FORWARD);
+        rightDrive.setDirection(DcMotor.Direction.REVERSE);
 
-        waitForStart();
+            waitForStart();
 
         while (opModeIsActive()) {
 
